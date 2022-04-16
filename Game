@@ -40,3 +40,7 @@ while True:
 
     pg.display.flip()
     clock.tick(FPS)
+        if sprite.collide_rect(saintgr, plath):
+        dy *= -1
+    if sprite.collide_rect(saintgr, plath2):
+        dy *= -1
